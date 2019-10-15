@@ -151,6 +151,11 @@ input.search {
    input.search {display:none;}
 }
 
+@media screen and (max-width: 750px)
+{
+   .share {display:none;}
+}
+
 input.submit {
     display: none;
 }
