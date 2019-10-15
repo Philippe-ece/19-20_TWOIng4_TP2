@@ -146,6 +146,11 @@ input.search {
     box-shadow: inset 1px 1px 5px #d5d5d5;
 }
 
+@media screen and (max-width: 900px)
+{
+   input.search {display:none;}
+}
+
 input.submit {
     display: none;
 }
